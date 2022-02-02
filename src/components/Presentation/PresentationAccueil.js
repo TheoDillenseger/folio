@@ -1,6 +1,6 @@
 import React from 'react';
 import './PresentationAccueil.css';
-import CardItem from './CardItem';
+import CardItem from '../Widjet/CardItem';
 
 function PresentationAccueil() {
   return (
