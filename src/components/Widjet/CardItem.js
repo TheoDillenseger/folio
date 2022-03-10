@@ -3,7 +3,26 @@ import './CardItem.css'
 
 function CardItem(props) {
   return (
-    <>
+    
+    <div className='widjet'>
+      <h1 className='widjet_title' >{props.titre}</h1>
+      <p className='widjet_text'>{props.text1}</p>
+      <p className='widjet_text'>{props.text2}</p>
+      <p className='widjet_text'>{props.text3}</p>
+      <p className='widjet_text'>{props.text4}</p>
+      <p className='widjet_text'>{props.text5}</p>
+      
+
+
+      
+    </div>    
+
+  );
+}
+
+export default CardItem;
+/*
+<>
       <li className={props.direction ? 'cards__item' : 'cards__item__reverse'}> 
           <div className='cards__item__pic-wrap'>
             <img
@@ -21,7 +40,4 @@ function CardItem(props) {
         
       </li>
     </>
-  );
-}
-
-export default CardItem;
+    */
