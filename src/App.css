@@ -10,7 +10,7 @@ body{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(70deg, #0f4fc5 50% , #d614dd );;
+  background: linear-gradient(30deg, rgb(22,25,62) 50% , rgb(63, 139, 158) );;
   
   
 }
