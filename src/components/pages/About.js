@@ -8,7 +8,10 @@ import ProfileBox from '../profileBox/ProfileBox';
 
 function About() {
   return (
+  
     <>
+    
+     
     <div className='about_container'>
       <CardItem 
         titre="Qui est tu ?" 
@@ -19,6 +22,7 @@ function About() {
       
 
 </div>
+
 
     </>
   );
